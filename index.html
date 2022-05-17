@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<head>
+    <title>FairenLovely</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "View more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "View less";
+                moreText.style.display = "inline";
+            }
+
+        }
+        function myFunction2() {
+            var dots = document.getElementById("dots2");
+            var moreText = document.getElementById("more2");
+            var btnText = document.getElementById("myBtn2");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "View more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "View less";
+                moreText.style.display = "inline";
+            }
+
+        }
+        function myFunction3() {
+            var dots = document.getElementById("dots3");
+            var moreText = document.getElementById("more3");
+            var btnText = document.getElementById("myBtn3");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "View more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "View less";
+                moreText.style.display = "inline";
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <nav>
+        <img src="/images/glowandlovely_pt_social_share.jpg">
+        <input type="text" name="search_on_nav" id="nav_search"
+            placeholder="      career Guidance, Online Courses Success Stories">
+        <img src="/images/search.jpeg.svg"
+            style="width:30px !important; height: 35px;margin-top: 20px;background-color: rgba(195, 194, 192, 0.63); margin-left:0px; display: block;">
+        <img src="/images/register.svg"
+            style="width:40px !important; height: 45px;margin-top: 20px;float: right; margin-right:150px; display: block;">
+    </nav>
+    <br><br>
+    <hr style="margin-top: 100px;" />
+    <br>
+    <label style="color: rgb(210, 63, 109); font-size:17px; margin-left: 50px; font-family: sans-serif;">Career
+        Guidance</label>
+    <label style="color: rgb(210, 63, 109); font-size:17px; margin-left: 40px; font-family: sans-serif;">Online
+        Test</label>
+    <label style="color: rgb(210, 63, 109); font-size:17px; margin-left: 40px; font-family: sans-serif;">Learn
+        English</label>
+    <label style="color: rgb(210, 63, 109); font-size:17px; margin-left: 40px; font-family: sans-serif;">Online
+        Courses</label>
+
+    <label style="color: rgb(210, 63, 109); font-size:17px; margin-left: 35px; font-family: sans-serif;">Resume
+        Builder</label>
+    <label style="color: rgb(210, 63, 109); font-size:17px; margin-left: 35px; font-family: sans-serif;">Exciting
+        Jobs</label>
+    <label
+        style="color: rgb(210, 63, 109); font-size:17px; margin-left: 35px; font-family: sans-serif;">Community</label>
+    <label style="color: rgb(210, 63, 109); font-size:17px; margin-left: 35px; font-family: sans-serif;">Blog &
+        Stories</label>
+    <label style="color: rgb(210, 63, 109); font-size:17px; margin-left: 35px; font-family: sans-serif;">Our
+        Products</label>
+    <hr style="margin-top: 10px;" />
+
+    <div id="containeer">
+
+        <div id="box1">
+            <img src="/images/it.PNG">
+            <p>Who doesn’t know the term ‘IT’ today? Whether it’s the bulging pay-packet or the much hyped boom in
+                Pakistan, IT has been in<span id="dots">....</span><span id="more"> the news. The profession being
+                    defined as "the study, design, development,
+                    implementation, support or management of computer-based information systems, particularly software
+                    applications and computer hardware". However, you must ask yourself: Do I enjoy working with
+                    computers?
+                    Am I fascinated by technology? Do I adapt well to change? Do I like solving complex, real life
+                    problems?
+                    If you answered yes, you will enjoy a career in
+                    Information Technology! While exploring careers within this industry, you will learn about the
+                    career,
+                    education pathway, job opportunities, etc.</span></p>
+            <button onclick="myFunction()" id="myBtn">View more</button>
+
+        </div>
+        <div id="box2">
+            <img src="/images/img2.PNG">
+            <p>Education is the basis of our successful survival in the modern world. While a career in this field was
+                considered dull, it <span id="dots2">....</span><span id="more2"> is quickly become a lucrative
+                option, given the monetary benefits. It’s a field
+                which doesn’t fail to disappoint. However, you must ask yourself: Do I enjoy helping people learn new
+                skills? Am I patient? Do I enjoy working with children or teenagers? If you answered yes, you will enjoy
+                a career in Education and Training! While exploring careers within this industry, you will learn about
+                the career, education pathway, job opportunities, etc.</span> </p>
+            <button onclick="myFunction2()" id="myBtn2">View more</button>
+        </div>
+        <div id="box3">
+            <img src="/images/img3.PNG">
+            <p>This industry is essentially about communication to the ‘masses’. From radio, television, print, world
+                wide web, it focuses on informing people.<span id="dots3">....</span><span id="more3"> Professionals in this career are required to be ever ready for
+                change, challenge and surprise, since events take their own course, at their own time! With media boom
+                engulfing the markets, jobs are many. However, you must ask yourself: Am I interested in working in
+                television, film or radio? Is artistic expression important to me? Do I enjoy the limelight? If you
+                answered yes, you will enjoy a career in Media and Entertainment! While exploring careers within this
+                industry, you will learn about the career, education pathway, job opportunities, etc.</span> </p>
+            <button onclick="myFunction3()" id="myBtn3">View more</button>
+        </div>
+    </div>
+</body>
+
+</html>
